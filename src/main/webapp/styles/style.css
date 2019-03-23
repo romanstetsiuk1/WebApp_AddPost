@@ -1,0 +1,17 @@
+ul#navbar {
+    background-color: #18acc5;
+    height: 50px;
+}
+
+li {
+    display: inline;
+}
+
+ul#navbar a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul#navbar a:hover {
+    background-color: azure;
+}
