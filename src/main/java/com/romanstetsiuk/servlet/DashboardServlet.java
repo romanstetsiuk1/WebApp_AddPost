@@ -31,5 +31,9 @@ public class DashboardServlet extends HttpServlet {
             post.setCreatedAt(LocalDateTime.now());
             postDao.create(post);
         }
+
+        posts = postDao.findAll();
+        req.setAttribute("posts", posts);
+        req.getRequestDispatcher("/dashboard.jsp").forward(req, resp);
     }
 }
