@@ -12,5 +12,13 @@
 </head>
 <body>
 
+<form action="addPost" method="post">
+    Title: <br>
+    <input type="text" name="title"/><br>
+    Content:<br>
+    <textarea name="content"></textarea>
+    <input type="submit" value="Add post">
+</form>
+
 </body>
 </html>

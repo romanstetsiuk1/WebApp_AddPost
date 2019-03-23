@@ -16,7 +16,7 @@
 
 <ul id="navbar">
     <li>
-        <a href="<c:url value="/dashboard.jsp"/>">Home</a>
+        <a href="<c:url value="/dashboard"/>">Home</a>
     </li>
     <li>
         <a href="<c:url value="/addPost.jsp"/>">Add post</a>
