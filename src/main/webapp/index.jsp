@@ -1,5 +1,12 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+
+<%--<jsp:forward page="/dashboard"/>--%>
+
+<%
+    String dashboard = "http://localhost:8080/dashboard";
+    response.sendRedirect(dashboard);
+%>
+
 </body>
 </html>
